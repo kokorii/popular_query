@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Rectangles</title>
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=drawing"></script>
+    <script type="text/javascript" src="http://square.github.io/crossfilter/d3.v3.min.js"></script>
+	<script src="js\globalVariables.js"></script> 
+	<script src="js\drawingManager.js"></script> 
+	<script src="js\mapLevelView.js"></script> 
+	<!-- <script src="js\treeSearch.js"></script> --> 
+	<script src="js\levelSearch.js"></script> 
+    <script src="js\getFunction.js"></script> 
+	 <script src="json\withMBR.json"></script>
+  </head>
+  <body>
+  <div id="map-canvas" style="width:100%; height:100%"></div>
+  </body>
+</html>  
